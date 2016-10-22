@@ -1,13 +1,13 @@
+package main;
 
-import Groups.Albums;
-import Groups.Artists;
-import Groups.Playlists;
-import Groups.Tracks;
-import Search.SearchAlbum;
-import Search.SearchArtist;
-import Search.SearchPlaylist;
-import Search.SearchTrack;
-import Single.Playlist;
+import groups.Albums;
+import groups.Artists;
+import groups.Playlists;
+import groups.Tracks;
+import search.SearchAlbum;
+import search.SearchArtist;
+import search.SearchPlaylist;
+import search.SearchTrack;
 
 import java.io.IOException;
 

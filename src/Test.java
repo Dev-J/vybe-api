@@ -1,7 +1,6 @@
-import Search.SearchAlbum;
-import Search.SearchArtist;
-import Search.SearchPlaylist;
-import Search.SearchTrack;
+import search.SearchTrack;
+import main.DeezerClient;
+import main.JsonParserData;
 
 import java.io.IOException;
 

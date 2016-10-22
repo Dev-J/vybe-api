@@ -1,7 +1,6 @@
-package Groups;
+package groups;
 
-import Single.Artist;
-import Single.Track;
+import single.Artist;
 
 import java.util.ArrayList;
 

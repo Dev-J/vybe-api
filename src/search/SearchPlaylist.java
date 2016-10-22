@@ -1,17 +1,16 @@
-package Search;
+package search;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by Jack on 07/10/2016.
+ * Created by Jack on 09/10/2016.
  */
-public class SearchArtist {
+public class SearchPlaylist {
     private String query;
 
-    public SearchArtist(String query) {
+    public SearchPlaylist(String query) {
         this.query = processQuery(query);
-
     }
 
     public String getQuery() {

@@ -1,17 +1,17 @@
-package Single;
+package single;
 
 /**
  * Created by Jack on 09/10/2016.
  */
-public class Album {
+public class Playlist {
     private String link;
-    private String coverArt;
+    private String picture;
     private String id;
     private String title;
 
-    public Album(String link, String coverArt, String id, String title) {
+    public Playlist(String link, String picture, String id, String title) {
         this.link = link;
-        this.coverArt = coverArt;
+        this.picture = picture;
         this.id = id;
         this.title = title;
     }
@@ -20,15 +20,15 @@ public class Album {
         return link;
     }
 
-    public String getCoverArt() {
-        return coverArt;
+    public String getPicture() {
+        return picture;
     }
 
     public String getId() {
         return id;
     }
 
-    public String getTitle() {
+    public String gettitle() {
         return title;
     }
 }

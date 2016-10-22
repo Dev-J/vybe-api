@@ -1,7 +1,9 @@
-import Single.Album;
-import Single.Artist;
-import Single.Playlist;
-import Single.Track;
+package main;
+
+import single.Album;
+import single.Artist;
+import single.Playlist;
+import single.Track;
 import com.google.gson.*;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package Single;
+package single;
 
 /**
  * Created by Jack on 09/10/2016.
