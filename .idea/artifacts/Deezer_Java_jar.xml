@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Deezer-Java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Deezer_Java_jar</output-path>
+    <root id="archive" name="Deezer-Java.jar">
+      <element id="module-output" name="Deezer-Java" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient-win-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpcore-4.4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.6.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
