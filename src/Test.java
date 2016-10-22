@@ -15,10 +15,12 @@ public class Test {
 
         DeezerClient dc = new DeezerClient();
         SearchTrack searchTrack = new SearchTrack("lil wayne");
-        JsonParserData jsonParserData4 = new JsonParserData(dc.search(searchTrack), "track");
-        System.out.println("Length: " + jsonParserData4.getArrayLength());
-        System.out.println("Next: " + jsonParserData4.getNext());
-        System.out.println("Total: " + jsonParserData4.getTotal());
+
+        JsonParserData jsonParserData = new JsonParserData(dc.search(searchTrack), "track");
+
+        System.out.println("Length: " + jsonParserData.getArrayLength());
+        System.out.println("Next: " + jsonParserData.getNext());
+        System.out.println("Total: " + jsonParserData.getTotal());
 
         System.out.println("Track 0: " + dc.getTracks().getTrackArray().get(0).getTitle());
         System.out.println("Track 0 link: " + dc.getTracks().getTrackArray().get(0).getLink());
