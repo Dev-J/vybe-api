@@ -32,6 +32,8 @@ public class JsonParserData {
         coverArt = "";
         this.searchType = searchType;
 
+        System.out.println("Search query is: " + sUrl);
+
         // Connect to the URL using java's native library
         URL url = new URL(sUrl);
         HttpURLConnection request = (HttpURLConnection) url.openConnection();
@@ -49,7 +51,8 @@ public class JsonParserData {
 
         total = totalJson.getAsInt();
         if (total != 0) { //incase no results returned
-            next = nextJson.getAsString();
+
+            //next = nextJson.getAsString();
 
 
             arrayLength = jsonDataArray.size();
@@ -86,9 +89,10 @@ public class JsonParserData {
         return total;
     }
 
-    public String getNext() {
+    /*public String getNext() {
         return next;
     }
+    */
 
     public int getArrayLength() {
         return arrayLength;

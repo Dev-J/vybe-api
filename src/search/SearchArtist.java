@@ -20,14 +20,13 @@ public class SearchArtist {
 
     private String processQuery(String query) {
         String newQuery = "";
+        /*
         Pattern p = Pattern.compile("[^a-z0-9]", Pattern.CASE_INSENSITIVE);
         Matcher m = p.matcher(query);
         boolean b = m.find();
-        if(b == true) {
-            newQuery = query.replaceAll("\\s+", "%20");
-        } else {
-            query = newQuery;
-        }
+        */
+        newQuery = query.replaceAll("\\s+", "%20");
+
         return newQuery;
     }
 }

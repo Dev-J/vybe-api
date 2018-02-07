@@ -13,12 +13,12 @@ public class Test {
     public static void main(String [ ] args) throws IOException {
 
         DeezerClient dc = new DeezerClient();
-        SearchTrack searchTrack = new SearchTrack("lil wayne");
+        SearchTrack searchTrack = new SearchTrack("Beyonce");
 
         JsonParserData jsonParserData = new JsonParserData(dc.search(searchTrack), "track");
 
         System.out.println("Length: " + jsonParserData.getArrayLength());
-        System.out.println("Next: " + jsonParserData.getNext());
+        //System.out.println("Next: " + jsonParserData.getNext());
         System.out.println("Total: " + jsonParserData.getTotal());
 
         System.out.println("Track 0: " + dc.getTracks().getTrackArray().get(0).getTitle());
